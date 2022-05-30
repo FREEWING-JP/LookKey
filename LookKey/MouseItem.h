@@ -25,6 +25,10 @@ const D2D1_COLOR_F CLICK_COLOR_M = D2D1::ColorF(D2D1::ColorF::DarkGreen, 1.0f);
 const D2D1_COLOR_F CLICK_COLOR_W = D2D1::ColorF(D2D1::ColorF::DarkGreen, 1.0f);
 const FLOAT CLICK_HANDLE_OPACITY = 0.8f;
 
+const FLOAT CLICK_BORDER = 1.0f;
+const D2D1_COLOR_F CLICK_BORDER_COLOR = D2D1::ColorF(0.95f, 0.95f, 0.95f, 1.0f);
+const FLOAT CLICK_BORDER_THICKNESS = 1.6f;
+
 class MouseItem
 {
 protected:

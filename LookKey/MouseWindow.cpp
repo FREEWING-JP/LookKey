@@ -190,6 +190,9 @@ void MouseWindow::drawClientArea()
             m_pBrush,
             m_pLinearGradientBrush));
 
+    m_pBrush->SetColor(CLICK_BORDER_COLOR);
+    m_pBrush->SetOpacity(CLICK_BORDER);
+    m_pRenderTarget->DrawEllipse(circle, m_pBrush, CLICK_BORDER_THICKNESS, NULL);
 }
 
 // Cleanup done periodically, not at any particular time
