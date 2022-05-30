@@ -44,7 +44,8 @@ SettingsWindow::SettingsWindow(KeyWindow * keywin, MouseWindow * mousewin,
     InitTrayIcon();
 
     // TODO
-    setEnabled(true);
+    // Silent
+    // setEnabled(true);
 
 
 }
