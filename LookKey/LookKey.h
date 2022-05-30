@@ -10,13 +10,13 @@ inline void throw_if_fail(HRESULT hr)
     }
 }
 
-inline void throw_if_fail(BOOL b)
+/*inline void throw_if_fail(BOOL b)
 {
     if (!b)
     {
         throw _com_error(E_FAIL);
     }
-}
+}*/
 
 
 inline LONG_PTR EditWindowLong(HWND hWnd, int nIndex, LONG bitmask, bool setOrUnset)
